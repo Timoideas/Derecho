@@ -1,0 +1,73 @@
+.ScreenOdontograma {
+  font-size: 2vh;
+  text-align: center;
+}
+.Dentadura {
+  gap: 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1vh;
+}
+.PieceContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6vh;
+  height: 6vh;
+}
+.Piece {
+  background: #fff;
+  border: 0.2vh solid #000;
+  width: 6vh;
+  height: 6vh;
+  padding: 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+  transform: translate(-50%, -50%);
+  border-radius: 0;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  overflow: hidden;
+}
+.Piece > div {
+  flex: 1;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s ease-in;
+}
+.Info {
+  width: 12vh;
+  height: 12vh;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.PieceActivedContiner {
+  border-radius: 5vh;
+  transform: translate(-50%, -50%);
+  top: 0;
+  left: 10vw;
+  width: 80vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.Dentadura > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vh;
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "1",
+    "title": "Fuentes de Ortiz",
+    "duracion": "4",
+    "url": "videos/Fuentes.webm",
+    "banner": "videos/Fuentes.webm",
+    "año": "2020",
+    "nuevo": false
+  },
+  {
+    "_id": "2",
+    "title": "Vamonos a Marte",
+    "duracion": "2",
+    "url": "videos/Marte.webm",
+    "banner": "videos/Marte.webm",
+    "año": "2020",
+    "nuevo": false
+  },
+  {
+    "_id": "3",
+    "title": "Bad Habits",
+    "duracion": "3",
+    "url": "videos/videoplayback.mp4",
+    "banner": "videos/videoplayback.mp4",
+    "año": "2020",
+    "nuevo": false
+  }
+]

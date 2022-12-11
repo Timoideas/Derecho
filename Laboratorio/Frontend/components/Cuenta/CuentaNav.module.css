@@ -1,0 +1,22 @@
+.CuentaNav {
+  font-size: 2vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  flex: 1;
+  box-sizing: content-box;
+}
+
+.CuentaNav div {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12vh;
+  cursor: pointer;
+}
+.Active {
+  background: #fa0;
+}

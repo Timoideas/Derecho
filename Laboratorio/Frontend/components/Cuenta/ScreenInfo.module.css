@@ -1,0 +1,54 @@
+.ScreenInfo {
+  font-size: 2vh;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  padding: 5vh 5vh 10vh 5vh;
+}
+.NumbersContainer {
+  gap: 2vh;
+}
+.Numbers {
+  width: 12vh;
+  height: 5vh;
+  border-radius: 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.2vh solid #000;
+}
+.ContactoContainer {
+  gap: 2vh;
+  font-size: 3.5vh;
+  line-height: 3.5vh;
+}
+.Boletas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+.Boletas label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.BoletaContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 4;
+  gap: 1vh;
+}
+.BoletaCard {
+  width: 12vh;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.2vh solid #000;
+}

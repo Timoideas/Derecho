@@ -1,0 +1,12 @@
+.Content {
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Content svg {
+  pointer-events: visible;
+}
+.Content svg path {
+  transition: 1s;
+}
