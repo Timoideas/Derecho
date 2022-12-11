@@ -1,0 +1,59 @@
+/* Phone */
+.Container {
+  width: 85vw;
+  position: absolute;
+  z-index: 1;
+  background: var(--c00);
+  height: 80vh;
+  transform: translate(0%, 50%) scale(0.95);
+  bottom: 52%;
+  border-radius: 15px;
+  opacity: 0;
+  pointer-events: none;
+  border: 0.2vh solid #38f;
+}
+.Container * {
+  opacity: 0;
+}
+.ContainerActive {
+  pointer-events: visible;
+  bottom: 50%;
+  opacity: 1;
+  transform: translate(0%, 50%) scale(1);
+}
+.ContainerActive * {
+  opacity: 1;
+}
+.Button {
+  transition: 0.3s;
+  position: absolute;
+  opacity: 1 !important;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background: var(--c20);
+}
+.Icon svg path {
+  fill: var(--c20);
+  fill: #38f !important;
+}
+.BlurBg {
+  background: #fa0;
+  width: 30px;
+  height: 30px;
+  backdrop-filter: blur(3px);
+}
+/* Tablet */
+@media (min-width: 576px) {
+}
+/* Laptop */
+@media (min-width: 768px) {
+}
+/* Desktop */
+@media (min-width: 1200px) {
+  .Container {
+    border-radius: 30px;
+  }
+}
