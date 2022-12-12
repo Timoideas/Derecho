@@ -69,10 +69,7 @@ export default function CalendarChart({
                 >
                   <span
                     className={style.CalendarDay}
-                    data-level={
-                      // random number between 0 and 4
-                      Math.floor(Math.random() * 5)
-                    }
+                    // datadslevel={Math.floor(Math.random() * 5)}
                   ></span>
                 </Emergente>
               ))}
